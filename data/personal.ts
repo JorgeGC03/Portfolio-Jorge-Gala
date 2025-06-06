@@ -7,8 +7,9 @@ export const personalInfo: PersonalInfo = {
   longDescription: "Soy desarrollador web. A lo largo de mi formación y experiencia en proyectos reales, he reforzado mis conocimientos técnicos y aprendido a trabajar de forma colaborativa en equipo. Me gusta lo que hago, disfruto resolviendo problemas y siempre estoy buscando formas de mejorar. Me interesa especialmente estar al día con las nuevas tecnologías, y actualmente tengo un fuerte interés por la inteligencia artificial. Estoy en búsqueda de una oportunidad que me permita seguir creciendo, aprender de otros profesionales y aportar valor en proyectos con impacto.",
   location: "Valencia, España",
   github: "@JorgeGC03",
-  email: process.env.NEXT_PUBLIC_EMAIL || "",
-  phone: process.env.NEXT_PUBLIC_PHONE || "",
-  linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || "",
+  email: process.env.NEXT_PUBLIC_EMAIL || "jorgegalacaballero@gmail.com",
+  phone: process.env.NEXT_PUBLIC_PHONE || "+34 699083888", 
+  linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/in/jorge-gala-caballero-381097214/",
+  githubUrl: process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/JorgeGC03",
   languages: ["ES", "EN", "VAL"]
 } 

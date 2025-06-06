@@ -87,7 +87,14 @@ html {
 
 /* Ajuste para el header fijo */
 section {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 120px;
+}
+
+/* Responsive navbar para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  section {
+    scroll-margin-top: 140px;
+  }
 }
 
 /* Efectos Neón Personalizados */

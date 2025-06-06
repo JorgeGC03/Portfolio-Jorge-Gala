@@ -17,7 +17,6 @@ export const metadata: Metadata = {
     description: "Portfolio profesional de Jorge Gala Caballero",
     type: "website",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
