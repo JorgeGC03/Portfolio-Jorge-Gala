@@ -44,6 +44,7 @@ export interface PersonalInfo {
   name: string
   title: string
   description: string
+  longDescription: string
   location: string
   github: string
   email: string
